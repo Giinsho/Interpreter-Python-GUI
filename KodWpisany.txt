@@ -1,0 +1,52 @@
+bool t = true;
+bool f = false
+bool t2=true;
+bool f2=false;
+
+int a = 5;
+int newInt=5;
+int asd=13;
+int bd = 13;
+int[] tablica = new tab[5];
+
+a = a + newInt;
+a = a * newInt;
+a = a / newInt;
+a = a % newInt;
+
+
+
+float valFloat=3.212;
+float floatValue = 3.23;
+
+valFloat = valFloat + floatValue;
+valFloat = valFloat * floatValue;
+valFloat = valFloat / floatValue;
+valFloat = valFloat % floatValue;
+
+double dx=32.23;
+double x = 12.12;
+
+dx = x + dx;
+dx = x * dx;
+dx = x / dx;
+dx = x % dx;
+
+char charValue = "d";
+char charValue="d";
+
+String stringValue = "stringasd";
+String  strVal="newone";
+
+int liczbyCalkowite = 123;
+
+for ( int x = 3 ; x <= 10 ; i++ ) {
+int x = 3; };
+
+Random random = new Random();
+int randomInt = random.nextInt(5);
+System.out.print( "adssa" );
+System.out.println( "adssa" );
+
+System.out.print( a );
+System.out.println( a );

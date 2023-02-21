@@ -1,0 +1,51 @@
+
+DEFINE PUBLIC STATIC main([Ljava/lang/String; args)V
+A:
+LINE A 7
+
+B:
+
+LINE B 8
+LDC 3.23F
+FSTORE floatValue
+
+C:
+
+LINE C 9
+D:
+
+LINE D 10
+BIPUSH_100
+ISTORE charValue
+
+E:
+
+LINE E 11
+BIPUSH 123
+ISTORE liczbyCalkowite
+
+ICONST_3
+ISTORE x
+
+F:
+ILOAD x
+IFGT I
+
+ICONST_3
+ISTORE x
+
+BIPUSH 5
+NEWARRAY I
+ASTORE tablica
+
+NEW java/util/Random
+DUP
+INVOKESPECIAL java/util/Random.<init>()V
+ASTORE random
+ALOAD random
+BIPUSH 5
+INVOKEVIRTUAL java/util/Random.nextInt(I)I
+ISTORE randomInt
+
+RETURN
+G:
